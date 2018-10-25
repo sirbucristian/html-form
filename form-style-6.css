@@ -1,0 +1,40 @@
+html{
+font-size:15px;}
+body{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(game-image.jpg);
+}
+form{
+position: relative;
+left:30%;
+width:30%;
+}
+input{
+display:block;
+margin: 5px;
+padding-right: 50px;
+border-radius: 8%;
+color: black;}
+fieldset{
+color:white;
+border-radius: 3%;
+border: 0.5em inset red;
+background: linear-gradient(75deg, red 30%, black 70%);}
+textarea{
+margin: 5px;}
+textarea:hover{
+    background-color:grey;}
+input:hover{background-color: grey;}
+legend{
+    color: white;
+    text-align: center;
+    background-color: transparent;
+    font-size:3em;}
+.submit{
+    background-color: red;
+    color: white;}
+.submit:hover{
+    background-color: black;
+}
